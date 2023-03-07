@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
 const ChildComponent = ({ children }) => {
   return (
     <div id="child">
-      Find The Square <br/>
+      Find The Square <br />
       {children}
     </div>
-  );
+  )
 }
 
-export default ChildComponent;
+export default ChildComponent
