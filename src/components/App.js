@@ -3,7 +3,7 @@ import '../styles/App.css'
 import ChildComponent from './ChildComponent'
 const App = () => {
   const [input, setInput] = useState('')
-  const [output, setOutput] = useState('')
+  const [output, setOutput] = useState('0')
   const handleInputChange = (event) => {
     const inputValue = event.target.value
     setInput(inputValue)
